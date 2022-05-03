@@ -1,7 +1,7 @@
 {
   "name": "leak",
   "version": "1.0.0",
-  "description": "a simple react clone experiment",
+  "description": "a simple react clone",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --config webpack.dev.js",
