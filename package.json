@@ -1,0 +1,29 @@
+{
+  "name": "leak",
+  "version": "1.0.0",
+  "description": "a simple react clone experiment",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js --mode production"
+  },
+  "author": "elicavalheiro <elimara.ac@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.17.10",
+    "@babel/plugin-transform-react-jsx": "^7.17.3",
+    "@babel/preset-env": "^7.17.10",
+    "babel-loader": "^8.2.5",
+    "html-webpack-plugin": "^5.5.0",
+    "http-server": "^14.1.0",
+    "rimraf": "^3.0.2",
+    "source-map-loader": "^3.0.1",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.8.1"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1",
+    "snabbdom": "^3.5.0"
+  }
+}
