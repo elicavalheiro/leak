@@ -1,2 +1,2 @@
 # leak
-a simple "react clone" experiment
+a simple "react clone"
